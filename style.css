@@ -104,6 +104,7 @@ svg{
 .logo{
     width: 100px;
     height: 100px;
+    overflow-y: hidden; 
 }
 
 .Tokenomics{
@@ -165,7 +166,6 @@ svg{
 @media only screen and (max-width: 700px){
 
     .navigation{
-        position: fixed;
         top: 0;
         left: 0;
         max-width: 100%;
