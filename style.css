@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: pink;
+    color: white;
+    text-align: center;
+
+}
+
+.header h1{
+    font-size: 6rem;
+    margin-top: 0;
+}
+
+.header p{
+    font-size: 1rem;
+    margin: 0 5rem 0 5rem;
+}
+
+.header svg{
+    display: block;
+}
+
+.about{
+    background-color:white;
+    text-align: center;
+}
+
+.about p{
+    margin: 0 5rem 0 5rem;
+}
+
+.navigation{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    box-sizing: border-box;
+    background-color: pink;
+  }
+
+  .navbar a {
+    position: relative;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  .navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0; 
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+  
+  }
+  
+  .navbar a:hover::before{
+    width: 100%;
+  }
