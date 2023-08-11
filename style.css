@@ -69,6 +69,7 @@ svg{
     z-index: 100;
     box-sizing: border-box;
     background-color: pink;
+    overflow-x: hidden;
   }
 
   .navbar a {
@@ -171,6 +172,7 @@ svg{
         z-index: 100;
         box-sizing: border-box;
         margin-left: 0;
+        overflow-x: hidden;
     }
 
     .navbar a {
