@@ -50,6 +50,7 @@ svg{
 .header h2{
  font-size: 3rem;
  margin-top: 0;
+ font-family: 'Ubuntu Mono', sans-serif;
 }
 
 .header p{
@@ -103,7 +104,8 @@ svg{
     font-size: 2.5rem;
     margin-left: 13%;
     margin-right: 13%;
-    margin-bottom: 9%;
+    margin-bottom: 13%;
+    margin-top: 4%;
     font-family: 'Oakley Ridge', sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
