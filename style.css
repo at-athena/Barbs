@@ -225,6 +225,10 @@ svg{
         margin-top: 60px;
     }
   
+    img#barbie {
+        display: none;
+      }
+
   }
 
   @media screen and (max-width: 700px) {
@@ -266,10 +270,9 @@ svg{
         font-size: 13px;
        }
 
-       .logo{
-        width: 60px;
-        height: 60px;
-        }
+       img#barbie {
+        display: none;
+      }
 
         .rc_nav {
             background-color: #575b69;
