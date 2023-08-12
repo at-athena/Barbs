@@ -22,6 +22,14 @@ img#barbie2{
     display: none;
   }
 
+
+
+.barshi{
+    width: 40vw;
+    height: 50vw;
+    border-radius: 20px;
+}
+
   blockquote {
     font-size: 18px;
     font-style: italic;
@@ -62,11 +70,22 @@ svg{
     display: block;
 }
 
+.column{
+    width: 50%;
+    margin: auto;
+    float:left;
+}
+
+.inside{
+    float: right;
+}
 
 .about{
     background-color: white;
     color: black;
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -80,6 +99,7 @@ svg{
     font-size: 1.8rem;
     margin: 0 3rem 0 3rem;
     font-family: 'Ubuntu Mono', sans-serif;
+
 }
 
 .about svg{
@@ -255,6 +275,24 @@ svg{
 
   }
 
+
+  @media screen and (max-width: 1200px){
+    .column{
+        width: 100%;
+        margin: auto;
+        float:left;
+    }
+
+    .inside{
+        float: none;
+    }
+
+    .barshi{
+        width: 400px;
+        height: 500px;
+    }
+  }
+
   @media screen and (max-width: 700px) {
 
     .Tokenomics{
@@ -324,19 +362,34 @@ svg{
         display:block;
       }
 
-        .rc_nav {
+    .rc_nav {
             background-color: 	#FFB6C1;
-          }
+    }
           
-          .rc_nav a {
-           font-size: 18px;
-          }
+    .rc_nav a {
+        font-size: 18px;
+    }
     
     .middlelogo{
         margin: auto;
         width: 150px;
         height: 150px;
     }   
+
+    .column{
+        width: 100%;
+        margin: auto;
+        float:left;
+    }
+
+    .inside{
+        float: none;
+    }
+
+    .barshi{
+        width: 400px;
+        height: 500px;
+    }
 
   }
   
