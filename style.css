@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/barbie');
+
 body{
     max-width: 100%;
     margin: 0;
@@ -6,6 +8,8 @@ body{
     display: block;
     overflow-x: hidden;
     display: inline-block;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -23,13 +27,16 @@ svg{
 }
 
 .header h1{
-    font-size: 6rem;
+    font-size: 10rem;
     margin-top: 30px;
     margin-bottom: 0;
+    font-family: 'Barbie', sans-serif;
+    color:black;
 }
 
 .header h2{
  font-size: 3rem;
+ margin-top: 0;
 }
 
 .header p{
@@ -55,7 +62,7 @@ svg{
 }
 
 .about p{
-    font-size: 1rem;
+    font-size: 1.8rem;
     margin: 0 3rem 0 3rem;
 }
 
@@ -118,6 +125,10 @@ svg{
     padding: 100px;
 }
 
+.logo{
+    width: 150px;
+    height: 150px;
+}
 
 #rc_logo {
     left: 30px;
@@ -136,7 +147,7 @@ svg{
    
    .rc_nav {
      overflow: hidden;
-     background-color: #363841;
+     background-color: pink;
      text-align: center;
      z-index: 6;
    }
@@ -148,7 +159,7 @@ svg{
     padding: 20px 22px;
     text-decoration: none;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 25px;
     -webkit-transition: background 0.3s linear;
     -moz-transition: background 0.3s linear;
     -ms-transition: background 0.3s linear;
@@ -166,6 +177,25 @@ svg{
      display: none;
    }
 
+   .button{
+    min-width: 180px;
+    padding: 16px 32px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: inline-block;
+   }
+
+   .button:hover{
+    background-color: #FF69B4;
+    transition: .3s;
+   }
+   
    
 
    @media screen and (max-width: 820px) {
@@ -222,6 +252,20 @@ svg{
     .extra h1{
         font-size: 4rem;
     }
+
+    .button{
+        min-width: 250px;
+        padding: 16px 32px;
+        margin: auto;
+        text-align: center;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        margin-left: 25px;
+        border-radius: 10px;
+        font-size: 13px;
+       }
+    
 
   }
   
