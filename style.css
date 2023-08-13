@@ -145,7 +145,6 @@ svg{
     color: white;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 50px;
 }
 
 .extra h1{
@@ -287,6 +286,18 @@ svg{
     min-height: 350px;
     border-radius: 30px;
    }
+
+   .row3{
+    width: 80%;
+    margin: auto;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    color: #292b31;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    min-height: 75px;
+   }
    
    
 
@@ -385,8 +396,14 @@ svg{
         font-size: 1rem;
     }
 
+    .row3{
+        width: 70%;
+    }
+
     .extra h1{
-        font-size: 4rem;
+        font-size: 3rem;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .extra{
@@ -452,6 +469,8 @@ svg{
         float: left;
         text-align: center;
         margin-bottom: 30px;
+        border: 2px solid hotpink;
+        min-height: 300px;
        }
 
        .column3 p{
