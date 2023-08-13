@@ -81,7 +81,6 @@ svg{
 
 .inside{
     float: right;
-    margin-right: 40px;
 }
 
 .about{
@@ -264,6 +263,10 @@ svg{
     transition: .3s;
    }
 
+   .last path{
+    fill: #FF69B4;
+   }
+
 
    .row{
     width: 70%;
@@ -386,6 +389,14 @@ svg{
         font-size: 4rem;
     }
 
+    .extra{
+        background-color: #F17BB6;
+    }
+
+    .last path{
+        fill: #F17BB6;
+    }
+
     .button{
         min-width: 75px;
         padding: 14px 29px;
@@ -437,7 +448,7 @@ svg{
     }
 
     .column3 {
-        width: 95%;
+        width: 90%;
         float: left;
         text-align: center;
         margin-bottom: 30px;
