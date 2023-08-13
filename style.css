@@ -65,10 +65,7 @@ svg{
  font-family: 'Ubuntu Mono', sans-serif;
 }
 
-.header p{
-    font-size: 1rem;
-    margin: 0 3rem 0 3rem;
-}
+
 
 .header svg{
     display: block;
@@ -116,6 +113,7 @@ svg{
     background-size:cover;
     color: white;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .Tokenomics h1{
@@ -389,7 +387,7 @@ svg{
 
     .header h1{
         margin-top: 70px;
-        font-size: 6.5rem;
+        font-size: 6.3rem;
     }
 
     .header h2{
@@ -421,7 +419,7 @@ svg{
        }
 
     .extra h1{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-left: 20px;
         margin-right: 20px;
     }
