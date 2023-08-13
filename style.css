@@ -55,7 +55,7 @@ svg{
     margin-top: 30px;
     margin-bottom: 0;
     font-family: 'Barbie', sans-serif;
-    color:black;
+    color:hotpink;
 }
 
 .header h2{
@@ -115,7 +115,6 @@ svg{
     background-size:cover;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .Tokenomics h1{
@@ -124,11 +123,10 @@ svg{
 }
 
 .Tokenomics p{
-    font-size: 2.5rem;
+    font-size: 2.8vw;
     margin-left: 13%;
     margin-right: 13%;
-    margin-bottom: 13%;
-    margin-top: 4%;
+    margin-top: 8%;
     font-family: 'Oakley Ridge', sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -144,12 +142,12 @@ svg{
     background-color: #FF69B4;
     color: white;
     text-align: center;
-    padding-top: 30px;
 }
 
 .extra h1{
-    font-size: 6rem;
-    margin-top: 0;
+    font-size: 3vw;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 .extra p{
@@ -185,7 +183,7 @@ svg{
 }
 
 .footer{
-    background-color: plum;
+    background-color: pink;
     padding: 50px;
     text-align: center;
     
@@ -262,8 +260,8 @@ svg{
     transition: .3s;
    }
 
-   .last path{
-    fill: #FF69B4;
+   .Tokenomics path{
+    fill: white;
    }
 
 
@@ -372,7 +370,7 @@ svg{
         background-size:cover;
         color: white;
         text-align: center;
-        padding-bottom: 30px;
+        padding-top: 30px;
     }
 
     .Tokenomics h1{
@@ -429,9 +427,7 @@ svg{
         background-color: #F17BB6;
     }
 
-    .last path{
-        fill: #F17BB6;
-    }
+
 
     .button{
         min-width: 75px;
