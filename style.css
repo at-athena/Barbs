@@ -287,6 +287,11 @@ svg{
     border-radius: 30px;
    }
 
+   .column3 h2{
+    color: hotpink;
+   }
+   
+
    .row3{
     width: 70%;
     margin: auto;
@@ -295,8 +300,12 @@ svg{
     padding: 30px;
     color: #292b31;
     margin-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
     min-height: 100px;
+   }
+
+   .row3 h2{
+    margin-top: 0;
    }
    
    .row3 p{
@@ -401,8 +410,14 @@ svg{
     }
 
     .row3{
-        width: 70%;
+        width: 100%;
+        min-height: 90px;
     }
+
+    .row3 p{
+        margin-left: 5vw;
+        margin-right: 5vw;
+       }
 
     .extra h1{
         font-size: 3rem;
