@@ -280,7 +280,7 @@ svg{
     float: left;
     text-align: center;
     background-color: white;
-    border: 5px solid hotpink;
+    border: 2px solid hotpink;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 4% ;
     min-height: 350px;
@@ -288,18 +288,22 @@ svg{
    }
 
    .row3{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    border: 5px solid white;
+    border: 2px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 30px;
     color: #292b31;
     margin-bottom: 40px;
     border-radius: 10px;
-    min-height: 75px;
+    min-height: 100px;
    }
    
-   
+   .row3 p{
+    margin-left: 10vw;
+    margin-right: 10vw;
+   }
+
 
    @media screen and (max-width: 820px) {
     .rc_nav a {display: none;}
@@ -477,6 +481,18 @@ svg{
         margin-left: 20px;
         margin-right: 20px;
         
+       }
+
+       .row3{
+        width: 80%;
+        margin: auto;
+        border: 2px solid white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 30px;
+        color: #292b31;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        min-height: 75px;
        }
 
   }
