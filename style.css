@@ -7,7 +7,7 @@ body{
     max-width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #292b31;
+    background-color: hotpink;
     display: block;
     overflow-x: hidden;
     display: inline-block;
@@ -389,7 +389,7 @@ svg{
 
     .header h1{
         margin-top: 70px;
-        font-size: 7.5rem;
+        font-size: 7rem;
     }
 
     .header h2{
@@ -509,5 +509,11 @@ svg{
         min-height: 75px;
        }
 
+       .rc_nav a:hover {
+        background-color: hotpink;
+        color: white;
+        border-radius: 20px;
+        padding: 25px;
+      }
   }
   
