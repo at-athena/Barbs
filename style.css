@@ -130,6 +130,7 @@ svg{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     line-height: 1.2;
+    padding: 10px;
 }
 
 .Tokenomics svg{
@@ -138,7 +139,7 @@ svg{
 
 
 .extra{
-    background-color: #FF69B4;
+    background-color: #E58EAA;
     color: white;
     text-align: center;
 }
